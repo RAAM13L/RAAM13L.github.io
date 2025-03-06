@@ -1,0 +1,30 @@
+h1 {
+ border: 2px solid tomato;   
+}
+ul{
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red;
+    
+}
+li{
+    border-width: 2.5px;
+    border-style: dotted;
+    border-color: violet;
+
+}
+p{  
+    border-width: 2.5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkred;
+}
+body{
+    background-image: url(Spideyamericanista.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    background-size: 150px;
+    background-color: aqua;
+
+}
