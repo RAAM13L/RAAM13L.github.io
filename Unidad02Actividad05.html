@@ -11,20 +11,59 @@
         a{
             text-decoration: none;
             color: black;
+            text-transform: uppercase;
         }
         a:hover{
             background-color:orange;
+        }
+        ul li ul {
+            visibility: hidden;
+            display: none;
+            position: absolute;
+        }
+        ul li:hover > ul, ul li ul:hover{
+            visibility: visible;
+            display: block;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            display:block;
+             float: left; 
+             position: relative;
         }
     </style>
 </head>
 <body>
     <h1>Unidad 2 || Actividad 5</h1>
     <ul>
-      <li><a href="">Inicio</a></li>
-      <li><a href="">UPSLP</a></li>
-      <li><a href="">texto</a></li>
-      <li><a href="">texto</a></li>
-
+      <li><a href="">Inicio &cudarrr;</a></li>
+      <li><a href="">UPSLP&cudarrr;</a>
+      <ul>
+        <li><a href="">Nuestra universidad</a></li>
+        <li><a href="">Modelo académico</a></li>
+        <li><a href="">Directorio</a></li>
+      </ul>
+    </li>
+      <li><a href="">conócenos&cudarrr;</a>
+    <ul>
+    <li><a href="">centros y laboratorios</a></li>
+    <li><a href="">extensión universitaria</a></li>
+    <li><a href="">cultura y deportes</a></li>
+    </ul>
+    </li>
+      <li><a href="">oferta educativa&cudarrr;</a>
+      <ul>
+      <li><a href="">licenciatura en administración</a></li>
+      <li><a href="">ingeniería en manufactura avanzada</a></li>
+      <li><a href="">ingeniería en tecnologías de la información e innovación digital</a></li>
+      <li><a href="">licenciatura en negocios y mercadotecnia</a></li>
+      <li><a href="">licenciatura en ingenieía industrial</a></li>
+      </ul>   
+      </li>
+      <li><a href="">egresados&cudarrr;</a></li>
+      <li><a href="">bolsa de trabajo&cudarrr;</a></li>
 
 
 
