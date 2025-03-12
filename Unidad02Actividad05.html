@@ -20,6 +20,7 @@
             visibility: hidden;
             display: none;
             position: absolute;
+            
         }
         ul li:hover > ul, ul li ul:hover{
             visibility: visible;
@@ -27,12 +28,36 @@
         }
         ul{
             list-style: none;
+           
         }
         li{
             display:block;
              float: left; 
              position: relative;
         }
+        /*Reglas extra*/
+        ul{
+          
+            margin: 0;
+            padding-left: 0;
+            border: 1px gray solid;
+    
+        }
+        li{
+            padding: 0.5rem;
+            min-width: 1.5rem;
+            min-height: 1.5rem;
+        }
+        li:hover{
+            color: white;
+            background-color: orange;
+        }
+      ul li ul{
+        margin-top: 1rem;
+         left: 0;
+         border-top: 2px orangered solid;
+        
+      }
     </style>
 </head>
 <body>
